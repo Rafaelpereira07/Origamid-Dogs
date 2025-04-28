@@ -5,6 +5,10 @@
   margin: 1rem;
 }
 
+.single.form {
+  margin: 1rem 0;
+}
+
 .textarea {
   display: block;
   width: 100%;
@@ -42,14 +46,14 @@
 }
 
 .button:focus svg path,
-.button:hover svg path{
+.button:hover svg path {
   fill: #fea;
   stroke: #fb1;
 }
 
 .button:focus svg g,
-.button:hover svg g{
-  animation: latir .8s infinite;
+.button:hover svg g {
+  animation: latir 0.8s infinite;
 }
 
 @keyframes latir {
